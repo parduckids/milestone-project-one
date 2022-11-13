@@ -1,5 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+html,body{
+    margin:0;
+    padding:0;
+    font-family: 'Syne Mono', monospace;
+
+}
+
 #jumbo-navigation {
-    background-image: url('/assets/images/delphine-ducaruge-lqx7nwaYS9o-unsplash.jpg');
+    background-image: url('/assets/images/pexels-asad-photo-maldives-240513.jpg');
     background-size: cover;
     height: 600px;
+}
+
+#jumbo-navigation h1, #jumbo-navigation h4{
+    color:white;
+    text-shadow:3px 2px black;
+} 
+
+.nav-link{
+    color:white;
+    text-shadow:3px 2px black;
+    font-size: 1.2rem;
 }
