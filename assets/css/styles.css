@@ -11,6 +11,10 @@ html,body{
     --bs-nav-link-hover-color: #f8f9fa;
 }
 
+.active{
+    border-bottom: 2px solid white ;
+    padding-bottom:3px;
+}
 #jumbo-navigation {
     background-image: url('/assets/images/pexels-asad-photo-maldives-240513.jpg');
     background-size: cover;
@@ -36,6 +40,8 @@ html,body{
 .nav-item .btn {
     margin-left: 20px;
 }
+
+#articles{}
 
 #welcome{}
 
