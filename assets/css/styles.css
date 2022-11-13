@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
 
+:root{
+    --main-color:#5271FF;
+    --secondary-color: #004AAD;
+    --details-color:#42C1FE;
+
+}
+
 html,body{
     margin:0;
     padding:0;
@@ -9,6 +16,11 @@ html,body{
 .nav {
     --bs-nav-link-color: #f8f9fa ;
     --bs-nav-link-hover-color: #f8f9fa;
+}
+
+a{
+    color:white;
+
 }
 
 .active{
@@ -49,5 +61,8 @@ html,body{
 
 #the-surf{}
 
-
+footer{
+    background-color: black;
+    color:white;
+}
 
