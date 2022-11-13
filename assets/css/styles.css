@@ -4,7 +4,11 @@ html,body{
     margin:0;
     padding:0;
     font-family: 'Syne Mono', monospace;
+}
 
+.nav {
+    --bs-nav-link-color: #f8f9fa ;
+    --bs-nav-link-hover-color: #f8f9fa;
 }
 
 #jumbo-navigation {
@@ -19,7 +23,19 @@ html,body{
 } 
 
 .nav-link{
-    color:white;
     text-shadow:3px 2px black;
     font-size: 1.2rem;
 }
+
+.nav-link:hover{
+    text-shadow:3px 2px black;
+    border-bottom: 2px solid white ;
+    padding-bottom:3px;
+}
+
+.nav-item .btn {
+    margin-left: 20px;
+}
+
+
+
