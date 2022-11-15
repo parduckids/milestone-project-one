@@ -54,6 +54,7 @@
     </header>
     <!-- Create articles using responsive containers sourced from Bootstrap -->
     <div class="container  my-5 px-5">
+        <!-- Heading text -->
         <div>
             <h2 class="text-center" style="margin-bottom:3rem;">
                 BOOK NOW !
@@ -63,7 +64,44 @@
                 id fugit incidunt ratione mollitia molestias ipsam odio praesentium!
             </p>
         </div>
-
+        <!-- Form, elements sourced from bootstrap -->
+        <form>
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Email address</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="form-group mt-4">
+              <label for="exampleFormControlSelect1">Select your surf package</label>
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option>Lorem ipsum dolor sit </option>
+                <option>Lmet & consectetur </option>
+                <option>adipisicing elit nemo</option>
+                <option>saepe animi & assumenda hic</option>
+                <option>quisquam officia & non</option>
+              </select>
+            </div>
+            <div class="form-group mt-4">
+              <label for="exampleFormControlSelect2">How many of you?</label>
+              <p style="font-size:0.7rem"><em>Max 5 people / session</em></p>
+              <select multiple class="form-control" id="exampleFormControlSelect2">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+            </div>
+            <div class="form-group mt-4">
+                <label for="exampleFormControlTextarea1">When would you like to come? </label>
+                <p style="font-size:0.7rem"><em>DD/MM/YYYY</em></p>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+              </div>
+            <div class="form-group mt-4">
+              <label for="exampleFormControlTextarea1">Additional information</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-outline-dark my-2">Submit</button>
+          </form>
     </div>
     <footer class=" text-center text-lg-start">
         <div class="text-center p-3">
