@@ -65,3 +65,10 @@ footer{
     color:white;
 }
 
+@media(max-width:600px){
+    .navbar-brand img{
+        width: 70px !important;
+        height: 70px !important;
+    }
+}
+
