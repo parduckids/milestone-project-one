@@ -15,7 +15,8 @@
 <body>
 
     <!-- Create image background  -->
-    <header id="jumbo-navigation" style="background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url('assets/images/guy-kawasaki-2q3JHgR2MK8-unsplash.jpg');">
+    <header id="jumbo-navigation"
+        style="background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url('assets/images/guy-kawasaki-2q3JHgR2MK8-unsplash.jpg');">
         <!-- Responsive navigation bar // SOURCE: BOOTSTRAP -->
         <nav class="navbar navbar-expand-lg">
             <a class="navbar-brand mx-4" href="/">
@@ -23,12 +24,13 @@
                 <img src="assets/images/logo.PNG" width="120" height="120" class="d-inline-block align-top"
                     alt="Wavy Wake Logo">
             </a>
-            <button class="navbar-toggler mx-4" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon text-white"></span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse justify-content-end px-4" id="navbarNav">
-                <ul class="nav ">
+            <div class="collapse navbar-collapse justify-content-end px-4" id="navbarSupportedContent">
+                <ul class="navbar-nav ">
                     <li class="nav-item">
                         <a class="nav-link" href="/">HOME</a>
                     </li>
@@ -39,7 +41,7 @@
                         <a class="nav-link" href="packages.html">PACKAGES & PRICES</a>
                     </li>
                     <li class="nav-item">
-                        <a  href="#book-now" class="btn btn-outline-light btn-lg">BOOK NOW</a>
+                        <a href="bookings.html" class="btn btn-outline-light btn-lg">BOOK NOW</a>
                     </li>
                 </ul>
             </div>
@@ -60,47 +62,49 @@
                 BOOK NOW !
             </h2>
             <p style="margin-bottom:3rem;">
-                Depending on your level of surfing skill and particular interests, you can choose from a variety of surf packages with us. All of our surf packages can be reserved for minimum 1 hour and longer, but 3 hours is the most popular length because it gives you enough time to explore and improve your surfing.
+                Depending on your level of surfing skill and particular interests, you can choose from a variety of surf
+                packages with us. All of our surf packages can be reserved for minimum 1 hour and longer, but 3 hours is
+                the most popular length because it gives you enough time to explore and improve your surfing.
             </p>
         </div>
         <!-- Bootstrap form, elements sourced from bootstrap -->
         <form id="book-now">
             <div class="form-group">
-              <label for="exampleFormControlInput1">Email address</label>
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                <label for="exampleFormControlInput1">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
             </div>
             <div class="form-group mt-4">
-              <label for="exampleFormControlSelect1">Select your surf package</label>
-              <select class="form-control" id="exampleFormControlSelect1">
-                <option>BEGGINER</option>
-                <option>INTERMEDIATE </option>
-                <option>SURF & YOGA</option>
-                <option>SURF GUIDE FOR PROS</option>
-              </select>
+                <label for="exampleFormControlSelect1">Select your surf package</label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                    <option>BEGGINER</option>
+                    <option>INTERMEDIATE </option>
+                    <option>SURF & YOGA</option>
+                    <option>SURF GUIDE FOR PROS</option>
+                </select>
             </div>
             <div class="form-group mt-4">
-              <label for="exampleFormControlSelect2">How many of you?</label>
-              <p style="font-size:0.7rem"><em>Max 5 people / session</em></p>
-              <select multiple class="form-control" id="exampleFormControlSelect2">
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5</option>
-              </select>
+                <label for="exampleFormControlSelect2">How many of you?</label>
+                <p style="font-size:0.7rem"><em>Max 5 people / session</em></p>
+                <select multiple class="form-control" id="exampleFormControlSelect2">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
             </div>
             <div class="form-group mt-4">
                 <label for="exampleFormControlTextarea1">When would you like to come? </label>
                 <p style="font-size:0.7rem"><em>DD/MM/YYYY</em></p>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
-              </div>
+            </div>
             <div class="form-group mt-4 mb-3">
-              <label for="exampleFormControlTextarea1">Additional information</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <label for="exampleFormControlTextarea1">Additional information</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
             <button type="submit" class="btn btn-outline-dark my-2">ENQUIRE NOW</button>
-          </form>
-          <p class="text-center">Can’t see this form above? <br>
+        </form>
+        <p class="text-center">Can’t see this form above? <br>
             No worries, you can also send us an email directly at surf@wavywake.com</p>
     </div>
     <footer class=" text-center text-lg-start">
@@ -109,6 +113,10 @@
             Wavy Wake
         </div>
     </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
