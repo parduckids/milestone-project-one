@@ -74,7 +74,7 @@ a {
     opacity: 0.4;
     right:0;
     top: 55%;
-    width: 100%;
+    width: 90%;
     overflow: hidden;
 }
 
@@ -85,6 +85,11 @@ a {
 #special {}
 
 #the-surf {}
+
+#surfguide h3, #surfandyoga h3, #begginer h3, #intermediate h3{
+    border:2px solid black;
+    margin-top:10px;
+}
 
 footer {
     background-color: black;
