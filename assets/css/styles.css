@@ -1,88 +1,147 @@
 @import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
 
-:root{
-    --main-color:#5271FF;
+:root {
+    --main-color: #5271FF;
     --secondary-color: #004AAD;
-    --details-color:#42C1FE;
+    --details-color: #42C1FE;
 
 }
 
-html,body{
-    margin:0;
-    padding:0;
+html,
+body {
+    margin: 0;
+    padding: 0;
     font-family: 'Syne Mono', monospace;
 }
 
-.nav {
-    --bs-nav-link-color: #f8f9fa ;
+.navbar-nav {
+    --bs-nav-link-color: #f8f9fa;
     --bs-nav-link-hover-color: #f8f9fa;
+    --bs-navbar-active-color: #f8f9fa;
+    --bs-navbar-toggler-border-color: #f8f9fa;
 }
 
-a{
-    color:white;
-
+a {
+    color: white;
 }
 
-.active{
-    border-bottom: 2px solid white ;
-    padding-bottom:3px;
-}
+
 #jumbo-navigation {
     background-size: cover;
     height: 600px;
 }
 
-#jumbo-navigation h1, #jumbo-navigation h4{
-    color:white;
-    text-shadow:3px 2px black;
-} 
+#jumbo-navigation h1,
+#jumbo-navigation h4 {
+    color: white;
+    text-shadow: 3px 2px black;
+}
 
-.nav-link{
-    text-shadow:3px 2px black;
+.nav-link {
+    text-shadow: 3px 2px black;
     font-size: 1.2rem;
 }
 
-.nav-link:hover{
-    text-shadow:3px 2px black;
-    border-bottom: 2px solid white ;
-    padding-bottom:3px;
+.nav-link:hover {
+    text-shadow: 3px 2px black;
+
 }
 
 .nav-item .btn {
     margin-left: 20px;
 }
 
-#articles{}
-
-#welcome{}
-
-#special{}
-
-#the-surf{}
-
-footer{
-    background-color: black;
-    color:white;
+.phone-button {
+    display: none;
 }
 
-@media(max-width:600px){
-    .navbar-brand img{
+.navbar-toggler {
+    margin-right: 20px;
+}
+
+.moving-image {
+    position: absolute;
+    z-index: -1;
+    opacity: 0.6;
+    right: 0;
+    top: 100%;
+    overflow: hidden;
+}
+
+.surf-image{
+    position: absolute;
+    z-index: -1;
+    opacity: 0.4;
+    right:0;
+    top: 55%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#articles {}
+
+#welcome {}
+
+#special {}
+
+#the-surf {}
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+@media(max-width:600px) {
+    .navbar-brand img {
         width: 70px !important;
         height: 70px !important;
     }
+    .moving-image {
+        top: 160% !important;
+    }
+    .surf-image{
+        top: 125% !important;
+        
+    }
 }
-@media(min-width:601px) and (max-width:850px){
-    .navbar-brand img{
+
+@media(min-width:601px) and (max-width:850px) {
+    .navbar-brand img {
         width: 100px !important;
         height: 100px !important;
     }
 }
-.phone-button{
-    display: none;
-}
-@media (max-width:991px){
-    .phone-button{
+
+@media (max-width:991px) {
+    .phone-button {
         display: block !important;
+    }
+
+    .navbar-nav {
+        text-align: center !important;
+    }
+
+    .nav-phone-btn {
+        display: none;
+    }
+
+    .nav-link:hover {
+        transform: scale(1.1);
+    }
+
+    .nav-item .btn {
+        margin-left: 0px !important;
     }
 }
 
+@media (min-width:992px) {
+    .nav-link:hover {
+        border-bottom: 2px solid white;
+        padding-bottom: 3px;
+    }
+
+    .active {
+        border-bottom: 2px solid white;
+        padding-bottom: 3px;
+    }
+}
