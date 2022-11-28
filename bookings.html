@@ -68,39 +68,43 @@
             </p>
         </div>
         <!-- Bootstrap form, elements sourced from bootstrap -->
-        <form id="book-now">
+        <form id="book-now" method="POST" action="https://formdump.codeinstitute.net/">
             <div class="form-group">
-                <label for="exampleFormControlInput1">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                <label for="email">Name</label>
+                <input type="text" class="form-control" id="name" name="name" placeholder="your name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com">
             </div>
             <div class="form-group mt-4">
-                <label for="exampleFormControlSelect1">Select your surf package</label>
-                <select class="form-control" id="exampleFormControlSelect1">
-                    <option>BEGGINER</option>
-                    <option>INTERMEDIATE </option>
-                    <option>SURF & YOGA</option>
-                    <option>SURF GUIDE FOR PROS</option>
+                <label for="package">Select your surf package</label>
+                <select class="form-control" id="package" name="packages">
+                    <option value="begginer">BEGGINER</option>
+                    <option value="intermediate">INTERMEDIATE </option>
+                    <option value="surf_yoga">SURF & YOGA</option>
+                    <option value="pro">SURF GUIDE FOR PROS</option>
                 </select>
             </div>
             <div class="form-group mt-4">
-                <label for="exampleFormControlSelect2">How many of you?</label>
+                <label for="numberOfPeople">How many of you?</label>
                 <p style="font-size:0.7rem"><em>Max 5 people / session</em></p>
-                <select multiple class="form-control" id="exampleFormControlSelect2">
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
+                <select multiple class="form-control" id="numberOfPeople" name="number_of_people">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
                 </select>
             </div>
             <div class="form-group mt-4">
-                <label for="exampleFormControlTextarea1">When would you like to come? </label>
+                <label for="date">When would you like to come? </label>
                 <p style="font-size:0.7rem"><em>DD/MM/YYYY</em></p>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+                <textarea class="form-control" id="date" name="date" rows="1"></textarea>
             </div>
             <div class="form-group mt-4 mb-3">
-                <label for="exampleFormControlTextarea1">Additional information</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <label for="additionalInfo">Additional information</label>
+                <textarea class="form-control" id="additionalInfo" name="additional_info" rows="3"></textarea>
             </div>
             <button type="submit" class="btn btn-outline-dark my-2">ENQUIRE NOW</button>
         </form>
