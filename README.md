@@ -45,5 +45,5 @@
 - 
 - 
 ## Testing
-- 
-- 
+- Chrome Lighthouse test
+- W3C test? 
