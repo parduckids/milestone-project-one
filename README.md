@@ -48,4 +48,4 @@
 ## Deployment
 ## Testing
 - Chrome Lighthouse test
-- W3C test? 
+- [W3C HTML VALIDATOR TEST ](https://validator.w3.org/) DONE FOR ALL PAGES (PASS)
