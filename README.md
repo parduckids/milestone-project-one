@@ -49,16 +49,41 @@
 - 
 - 
 ## Testing
-- ### [W3C HTML VALIDATOR TEST ](https://validator.w3.org/) DONE FOR ALL PAGES (PASS)
+### [W3C HTML VALIDATOR TEST ](https://validator.w3.org/) DONE FOR ALL PAGES (PASS)
+- Index
 ![image](testing/index-html-test.png)
+---
+- About
 ![image](testing/about-html-test.png)
+---
+- Packages
 ![image](testing/packages-html-test.png)
+---
+- Bookings
 ![image](testing/bookings-html-test.png)
+---
+- 404
 ![image](testing/404-html-test.png)
-- ### [Chrome Lighthouse test](https://developer.chrome.com/docs/lighthouse/overview/)
+---
+---
+### [CHROME LIGHTHOUSE TEST](https://developer.chrome.com/docs/lighthouse/overview/)
+- Index
 ![image](testing/index-lighthouse-test.png)
+---
+- About
 ![image](testing/about-lighthouse-test.png)
+---
+- Packages
 ![image](testing/packages-lighthouse-test.png)
+---
+- Bookings
 ![image](testing/bookings-lighthouse-test.png)
+---
+- 404
 ![image](testing/404-lighthouse-test.png)
+---
+---
+### [W3C CSS VALIDATOR](https://jigsaw.w3.org/css-validator/)
+- styles.css (custom css file)
+![image](testing/custom-css-validator.png)
 
