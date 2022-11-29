@@ -46,6 +46,19 @@
 - 
 - 
 ## Deployment
+- 
+- 
 ## Testing
-- Chrome Lighthouse test
-- [W3C HTML VALIDATOR TEST ](https://validator.w3.org/) DONE FOR ALL PAGES (PASS)
+- ### [W3C HTML VALIDATOR TEST ](https://validator.w3.org/) DONE FOR ALL PAGES (PASS)
+![image](testing/index-html-test.png)
+![image](testing/about-html-test.png)
+![image](testing/packages-html-test.png)
+![image](testing/bookings-html-test.png)
+![image](testing/404-html-test.png)
+- ### [Chrome Lighthouse test](https://developer.chrome.com/docs/lighthouse/overview/)
+![image](testing/index-lighthouse-test.png)
+![image](testing/about-lighthouse-test.png)
+![image](testing/packages-lighthouse-test.png)
+![image](testing/bookings-lighthouse-test.png)
+![image](testing/404-lighthouse-test.png)
+
