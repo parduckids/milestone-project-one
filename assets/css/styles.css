@@ -96,6 +96,10 @@ footer {
     color: white;
 }
 
+.full-width{
+    width:100%;
+}
+
 @media(max-width:600px) {
     .navbar-brand img {
         width: 70px !important;
