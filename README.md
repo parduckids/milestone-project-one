@@ -1,6 +1,11 @@
 # Wavy Wake Website
+
 ### [Code](https://github.com/parduckids/milestone-project-one)
+
 ### [Live link for the project](https://parduckids.github.io/milestone-project-one)
+
+### [Wireframes](https://parduckids.github.io/milestone-project-one/wireframes/wavy%20wake%20wireframe.pdf)
+
 
 
 <!-- Screenshot on different devices  -->
@@ -34,21 +39,71 @@
 
 - The Wavy Wake website's every page designed to be used on any screen sizes and is responsive. The [website](https://parduckids.github.io/milestone-project-one) has been created with [HTML](https://en.wikipedia.org/wiki/HTML) and custom [CSS](https://en.wikipedia.org/wiki/CSS) with the help of [bootstrap framework](https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)) by using bootstrap classes and without the use of bootstrap templates. The website responsiveness comes from a grid system that is implemented with [bootstrap classes](https://getbootstrap.com/docs/5.2/extend/approach/#classes). It has 4 pages and a 404 page.
 - Images : The logo is created with [canva.com](https://canva.com) online graphic design tool. All the other images shown on the website are from [pexels.com](https://pexels.com). The image names haven't been change due to it's showing the original author of the image. The images are from various accounts from [pexels.com](https://pexels.com). Favicon created with [favicon.ico](https://favicon.io/favicon-converter/).
-- Tools: The website is using [Bootstrap V.04](https://getbootstrap.com/) all around with added custom CSS3.
+- ### Tools:
 
-## About the design
- - 
- - 
-## User Experience
-- 
-- 
-## Structure of the code
-- 
-- 
-## Deployment
-- 
-- 
-## Testing
+  - [Git](https://git-scm.com/) was used as a version control in the terminal.
+
+  - [Github](https://github.com/) was used as project repository.
+
+  - [Gitpod](https://www.gitpod.io/) was used to create the website, where it's been coded on.
+
+  - The website is using [Bootstrap V.04](https://getbootstrap.com/) all around with added custom CSS3.
+
+  - [CompressJPEG](https://compressjpeg.com/) was used to compress images for a faster loading time.
+
+  - [Google Fonts](https://fonts.google.com/) was used for the custom font family. 
+
+  - Webformatter extension on Gitpod was used to help format the code. 
+
+  - [Google Chrome's Developer Tools](https://developer.chrome.com/docs/devtools/) used to test the website in the build phase.
+
+  - [Pexels](https://www.pexels.com/) was used for finding images without copyright.
+
+  - [Balsamiq](https://balsamiq.com/) was used to create Wireframes before the build phase.
+
+  - [jQuery](https://jquery.com/) was in the bootstrap library used for the responsive navigation bar.
+
+## About the design: 
+
+ - ### Typography
+
+   - The website using  Syne Mono font family all around. It is easily readable and gives a modern style to the website. 
+
+ - ### Colors 
+
+   - Using #fff and #000 (white and black) to make it as easy to see everything.
+
+ - ### Images
+
+   - Using a gif on a main page so the page doesn't look too static.
+   - Using appealing images about surfing.
+
+## User Experience: 
+- The website has been created for people who are looking for developing their surf skills.
+- The website's basic structure makes it possible for every age group to find everything they looking for.
+- The website is easy to navigate and works on every device.
+- The potential customer can book a session, read about the surf school, check the surf lesson packages, prices, address and see and read about the owners and surf insctructors. 
+- The information found on the website is giving enough confidence for the users to book a session with the surf school. With the call to action buttons it is easy to do so. 
+
+## Structure :
+
+- The website has a 4 pages Home, About, Bookings and Packages plus an extra 404 page. The website uses the same design for all the pages but different pictures and headings, so it is easy to find information and the user won't get confused.  
+  - Home : This is the landing page with a short description about the surf school and links out to the other pages.
+  - About : Provides more information about the surf school, team, opening hours and address.
+  - Packages : Showing the surf school's different surf lesson packages and provides call to action for all.
+  - Bookings : Booking page with a form where the user can book a surf lesson, fallback email address provided if the form doesn't work.
+  - 404 page : Customised 404 page with the style of Wavy Wake surf school.
+
+- Navigation bar:
+  - Each page has it's own navigation bar with mobile friendly 'hamburger' menu on smaller screen sizes. Active class used to show the user where they are on the website.
+
+  
+## Deployment: 
+- The website built with the help of [gitpod template](https://github.com/Code-Institute-Org/gitpod-full-template)  that Code Institute provided for this project and [Gitpod](https://www.gitpod.io/) that is an online code editor provided by [Github](https://github.com/). 
+- Using Github and Github Pages to create a live link for the website.
+
+## Testing: 
+
 ### [W3C HTML VALIDATOR TEST ](https://validator.w3.org/) DONE FOR ALL PAGES (PASS)
 - Index
 ![image](testing/index-html-test.png)
