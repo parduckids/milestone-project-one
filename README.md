@@ -38,7 +38,23 @@
 ## Technical information and Credits: 
 
 - The Wavy Wake website's every page designed to be used on any screen sizes and is responsive. The [website](https://parduckids.github.io/milestone-project-one) has been created with [HTML](https://en.wikipedia.org/wiki/HTML) and custom [CSS](https://en.wikipedia.org/wiki/CSS) with the help of [bootstrap framework](https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)) by using bootstrap classes and without the use of bootstrap templates. The website responsiveness comes from a grid system that is implemented with [bootstrap classes](https://getbootstrap.com/docs/5.2/extend/approach/#classes). It has 4 pages and a 404 page.
-- Images : The logo is created with [canva.com](https://canva.com) online graphic design tool. All the other images shown on the website are from [pexels.com](https://pexels.com). The image names haven't been change due to it's showing the original author of the image. The images are from various accounts from [pexels.com](https://pexels.com). Favicon created with [favicon.ico](https://favicon.io/favicon-converter/).
+- Images : The logo is created with [canva.com](https://canva.com) online graphic design tool. All the other images shown on the website are from [pexels.com](https://pexels.com).
+The image names haven't been change due to it's showing the original author of the image. The images are from various accounts from [pexels.com](https://pexels.com).
+   - Source:
+     - Guy Kawasaki
+     - Adina Lavinia Moldovan
+     - Apg Graphics
+     - Daniel Torobekov
+     - Dmitriy Ganin
+     - Kampus Production
+     - Oliver Sjostrom
+     - Paul Kerby Genil
+     - Pixabay
+     - Tim Marshall
+     - Toa Heftiba
+
+
+ Favicon created with [favicon.ico](https://favicon.io/favicon-converter/).
 - ### Tools:
 
   - [Git](https://git-scm.com/) was used as a version control in the terminal.
@@ -63,6 +79,12 @@
 
   - [jQuery](https://jquery.com/) was in the bootstrap library used for the responsive navigation bar.
 
+  - [Screenshot.app](https://support.apple.com/en-gb/HT201361#:~:text=In%20macOS%20Mojave%20or%20later%2C%20you%20can%20also%20set%20a,more%20about%20the%20Screenshot%20app.) was used to create videos to demonstrate the use of Gitpod and Github pages
+
+  - [Cloudconvert](https://cloudconvert.com/mov-to-gif) was used to convert .mov video file to gif file that is playing in the readme.md file.
+
+  - [EzGif](https://ezgif.com/) was used to reduce the size of the gif file, get rid of extra frames.
+
 ## About the design: 
 
  - ### Typography
@@ -75,7 +97,7 @@
 
  - ### Images
 
-   - Using a gif on a main page so the page doesn't look too static.
+   - Using a gif on a main page so the page doesn't look too static , sourced from [GIPHY](https://giphy.com/).
    - Using appealing images about surfing.
 
 ## User Experience: 
@@ -101,6 +123,14 @@
 ## Deployment: 
 - The website built with the help of [gitpod template](https://github.com/Code-Institute-Org/gitpod-full-template)  that Code Institute provided for this project and [Gitpod](https://www.gitpod.io/) that is an online code editor provided by [Github](https://github.com/). 
 - Using Github and Github Pages to create a live link for the website.
+
+
+- Guide for running the code on [Gitpod](https://www.gitpod.io/)
+  - ![Gitpod tutorial gif](assets/rm-images/gitpod.gif)
+
+- Step by step guide for creating a live link with the help of [Github Pages](https://pages.github.com/)
+  - ![Github pages tutorial gif](assets/rm-images/github-pages.gif)
+  
 
 ## Testing: 
 
