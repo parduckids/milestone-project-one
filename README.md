@@ -131,7 +131,7 @@ The image names haven't been change due to it's showing the original author of t
   ![Hamburger navbar closed](assets/rm-images/navbar-sm-closed.png)
     - 'Hamburger' navigation icon used with sourced from Bootstrap.
 
-  - Navigation bar on smaller screens (closed):
+  - Navigation bar on smaller screens (open):
   ![Hamburger navbar Opened](assets/rm-images/navbar-sm-open.png)
     - The booking button will still appear with closed and opened navigation bar, but centered in the middle for better visibility.
   
