@@ -179,6 +179,7 @@ The image names haven't been change due to it's showing the original author of t
   
 
 ## Testing: 
+ - All bugfixes are well commented in git commits, started with "fix:" .
 
 ### [W3C HTML VALIDATOR TEST ](https://validator.w3.org/) DONE FOR ALL PAGES (PASS)
 - Index
