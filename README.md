@@ -79,7 +79,7 @@ The image names haven't been change due to it's showing the original author of t
 
   - [jQuery](https://jquery.com/) was in the bootstrap library used for the responsive navigation bar.
 
-  - [Screenshot.app](https://support.apple.com/en-gb/HT201361#:~:text=In%20macOS%20Mojave%20or%20later%2C%20you%20can%20also%20set%20a,more%20about%20the%20Screenshot%20app.) was used to create videos to demonstrate the use of Gitpod and Github pages
+  - [Screenshot.app](https://support.apple.com/en-gb/HT201361#:~:text=In%20macOS%20Mojave%20or%20later%2C%20you%20can%20also%20set%20a,more%20about%20the%20Screenshot%20app.) was used to create videos to demonstrate the use of Gitpod and Github pages, to create screenshots for readme.md .
 
   - [Cloudconvert](https://cloudconvert.com/mov-to-gif) was used to convert .mov video file to gif file that is playing in the readme.md file.
 
@@ -118,6 +118,52 @@ The image names haven't been change due to it's showing the original author of t
 
 - Navigation bar:
   - Each page has it's own navigation bar with mobile friendly 'hamburger' menu on smaller screen sizes. Active class used to show the user where they are on the website.
+
+  - Navigation bar on larger screens
+  ![Large navbar](assets/rm-images/navbar-lg.png)
+    - Transparent navigation bar with white text with text shadow for better visibility, RGBA black layer added to image for better navigation bar visibility on all pages.
+
+  - Active class 
+  ![Active class navbar](assets/rm-images/active-class.png)
+    - Used for showing the users where they are on the website depending on current page.
+
+  - Navigation bar on smaller screens (closed):
+  ![Hamburger navbar closed](assets/rm-images/navbar-sm-closed.png)
+    - 'Hamburger' navigation icon used with sourced from Bootstrap.
+
+  - Navigation bar on smaller screens (closed):
+  ![Hamburger navbar Opened](assets/rm-images/navbar-sm-open.png)
+    - The booking button will still appear with closed and opened navigation bar, but centered in the middle for better visibility.
+  
+
+
+- Buttons:
+
+  - Consistent button style on all pages
+
+  ![Home page buttons](assets/rm-images/main-buttons.png)
+  ![Bookings page button](assets/rm-images/bookings-button.png)
+
+  - Hover effect on all buttons
+
+  ![Original](assets/rm-images/og-button.png)
+  ![Hovered](assets/rm-images/hovered-button.png)
+
+- Booking:
+  
+  - Bookings are managed with a basic form made with the help of Bootstrap
+    - The form:
+    ![Form](assets/rm-images/form.png)
+
+    - Form submitted:
+    ![Form success](assets/rm-images/form-success.png)
+
+- Footer:
+
+  - A basic footer used that is showing copyright information
+  ![Footer](assets/rm-images/footer.png)
+
+
 
   
 ## Deployment: 
