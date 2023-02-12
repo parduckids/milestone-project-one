@@ -110,7 +110,7 @@ The image names haven't been change due to it's showing the original author of t
 ## User Stories:
  - ### New users
 
-   - As a new user, I want to be able to easily navigate the website to find information about Wavy Wale and its courses.
+   - As a new user, I want to be able to easily navigate the website to find information about Wavy Wake and its courses.
    - As a new user, I want to be able to view detailed descriptions of the different surf courses offered by Wavy wake.
    - As a new user, I want to be able to easily access the booking form to reserve a session.
    - As a new user, I want to be able to easily find the contact information for Wavy Wake so I can ask questions.
@@ -118,7 +118,8 @@ The image names haven't been change due to it's showing the original author of t
  - ### Returning users
 
    - As a returning user, I want to be able to quickly access the booking form to make a new reservation.
-   - As a returning user, I want to be able to view any updates or changes to the surf courses offered by Surf Up.
+   - As a returning user, I want to be able to view any updates or changes to the surf courses offered.
+   - As a returning user, I want to be able to view any updates for opening times.
 
 
  - ### Site Owners
