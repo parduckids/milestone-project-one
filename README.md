@@ -21,7 +21,7 @@
 - [THE IDEA](#the-idea "Read about the web design")
 - [CREDITS & MORE](#technical-information-and-credits  "Credits")
 - [DESIGN](#about-the-design "Read about the web design")
-- [UX](#user-experience "User Experience")
+- [UX](#user-experience "User Experience and User Stories")
 - [STRUCTURE](#structure-of-the-code "The structure of the website")
 - [DEPLOYMENT](#deployment "Deployment")
 - [TESTING](#testing "Testing information")
@@ -106,6 +106,24 @@ The image names haven't been change due to it's showing the original author of t
 - The website is easy to navigate and works on every device.
 - The potential customer can book a session, read about the surf school, check the surf lesson packages, prices, address and see and read about the owners and surf insctructors. 
 - The information found on the website is giving enough confidence for the users to book a session with the surf school. With the call to action buttons it is easy to do so. 
+
+## User Stories:
+ - ### New users
+
+   - As a new user, I want to be able to easily navigate the website to find information about Wavy Wale and its courses.
+   - As a new user, I want to be able to view detailed descriptions of the different surf courses offered by Wavy wake.
+   - As a new user, I want to be able to easily access the booking form to reserve a session.
+   - As a new user, I want to be able to easily find the contact information for Wavy Wake so I can ask questions.
+
+ - ### Returning users
+
+   - As a returning user, I want to be able to quickly access the booking form to make a new reservation.
+   - As a returning user, I want to be able to view any updates or changes to the surf courses offered by Surf Up.
+
+
+ - ### Site Owners
+   - As a site owner, I want my website to be accessible and user-friendly on any device. 
+   - As a site owner, I want the website to be optimized for performance and functionality on all devices to provide a positive user experience.
 
 ## Structure :
 
