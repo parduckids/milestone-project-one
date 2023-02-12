@@ -1,10 +1,10 @@
 # Wavy Wake Website
 
-### [Code](https://github.com/parduckids/milestone-project-one)
+### [GitHub Repository](https://github.com/parduckids/milestone-project-one)
 
-### [Live link for the project](https://parduckids.github.io/milestone-project-one)
+### [Live link](https://parduckids.github.io/milestone-project-one)
 
-### [Wireframes](https://parduckids.github.io/milestone-project-one/wireframes/wavy%20wake%20wireframe.pdf)
+### [Wireframes and Sitemap](https://parduckids.github.io/milestone-project-one/wireframes/wavy%20wake%20wireframe.pdf)
 
 
 
